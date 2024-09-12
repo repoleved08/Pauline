@@ -1,0 +1,16 @@
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+# Logs
+*.log
+# Dependency directories
+vendor/
+# Environment files
+.env
+# Ignore docs folder
+docs/
