@@ -58,7 +58,7 @@ install_figlet
 install_go
 
 # ASCII banner for script name
-figlet_output=$(figlet -f Bloody 'Norman')
+figlet_output=$(figlet -f Bloody 'Pauline')
 echo -e "${NEON}${figlet_output}${RESET}"
 
 # Get terminal width and calculate padding
