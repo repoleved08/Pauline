@@ -189,6 +189,36 @@ vendor/
 docs/
 ```
 
+## Adding Pauline to PATH (Optional)
+
+To run Pauline from any directory, you can add the script to your PATH. Here's how you can do it:
+
+1. Move the `pauline.sh` script to a directory in your PATH. You can use the following command to find directories in your PATH:
+
+```bash
+echo $PATH
+```
+
+2. Move the script to one of the directories listed in the output. For example, you can move it to `/usr/local/bin`:
+
+```bash
+sudo mv pauline.sh /usr/local/bin/pauline
+```
+
+3. Make the script executable:
+
+```bash
+sudo chmod +x /usr/local/bin/pauline
+```
+
+4. You can now run Pauline from any directory:
+
+```bash
+pauline
+```
+
+![alt text](image-1.png)
+
 ## Dependencies
 
 Pauline automatically installs the following Go dependencies:
